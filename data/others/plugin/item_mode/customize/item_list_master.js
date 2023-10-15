@@ -110,7 +110,7 @@ f.item_list.evidence = [
     id: 10,
     name: "ミルクアイスキャンディー",
     target: "milk_icecandy",
-    record: true,
+    record: false,
     description: {
       default:
         "彪先輩にもらったミルクアイスキャンディー。[r]冷凍庫にたくさんあるみたい。[r]彪先輩、なんだかすごく食べて欲しそうにしてたけど……？",

@@ -18,6 +18,8 @@
 ; [jump storage=main/scenario.ks target=*tanaka_else]
 ; [return]
 
+; なお、data/others/plugin/item_mode/customize/item_use.ks の変更も必要です。
+
 *yorumi_suzuto_pierce_updated
 [jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_pierce_updated]
 [return]
@@ -47,11 +49,26 @@
 *kitaoroshi_hyo_pierce_updated
 [jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_pierce_updated]
 [return]
+*kitaoroshi_hyo_pierce_complete
+[jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_pierce_updated]
+[return]
 *kitaoroshi_hyo_hyo_nigate_tabemono
 [jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_hyo_nigate_tabemono]
 [return]
 *kitaoroshi_hyo_milk_icecandy_for_hyo
 [jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_milk_icecandy_for_hyo]
+[return]
+*kitaoroshi_hyo_yorumi_suzuto
+[jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_yorumi_suzuto]
+[return]
+*kitaoroshi_hyo_midoshima_haruka
+[jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_midoshima_haruka]
+[return]
+*kitaoroshi_hyo_kitaoroshi_hyo
+[jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_kitaoroshi_hyo]
+[return]
+*kitaoroshi_hyo_hiochi_akira
+[jump storage=main/house/evidence.ks target=*kitaoroshi_hyo_hiochi_akira]
 [return]
 *kitaoroshi_hyo_else
 [jump storage=main/house/evidence.ks target=kitaoroshi_hyo_else]

@@ -1,9 +1,8 @@
 *kitaoroshi_hyo_engeibu_futo_default
   [item_use]
   [message_true]
-  [chara_mod name=kitaoroshi face=wink cross=false time=10]
-  [shizuku_show face=normal_b]
-  [chara_mod name=shizuku face=normal_b cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=wink]
+  [shizuku_show_mod face=normal_b]
   [kitaoroshi_window]
   ミドリ、大学のどこかにいると思うから。[r]
   よろしくね☆[p]
@@ -17,9 +16,8 @@
 *kitaoroshi_hyo_engeibu_futo_complete
   [item_use]
   [message_true]
-  [chara_reset]
-  [chara_show name=kitaoroshi face=majimaji time=10]
-  [shizuku_show face=normal_b]
+  [chara_show_mod name=kitaoroshi face=majimaji]
+  [shizuku_show_mod face=normal_b]
   [shizuku_window]
   彪先輩！[r]
   緑島先輩に封筒を届けてきましたよ！[p]
@@ -64,9 +62,8 @@
 
 *kitaoroshi_hyo_pierce_default
   [item_use]
-  [chara_mod name=kitaoroshi face=majimaji cross=false time=10]
-  [shizuku_show face=normal_a]
-  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=majimaji]
+  [shizuku_show_mod face=normal_a]
   [message_true]
   [shizuku_window]
   彪先輩！　机の下にピアスが落ちてたんですけど[r]
@@ -111,9 +108,8 @@
 
 *kitaoroshi_hyo_pierce_updated
   [item_use]
-  [chara_mod name=kitaoroshi face=kushou cross=false time=10]
-  [shizuku_show face=normal_b]
-  [chara_mod name=shizuku face=normal_b cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=kushou]
+  [shizuku_show_mod face=normal_b]
   [message_true]
   [kitaoroshi_window]
   しっかし、しずくちゃん。[r]
@@ -142,9 +138,8 @@
 
 *kitaoroshi_hyo_hyo_nigate_tabemono
   [item_use]
-  [chara_mod name=kitaoroshi face=majimaji cross=false time=10]
-  [shizuku_show face=normal_a]
-  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=majimaji cross=false time=10]
+  [shizuku_show_mod face=normal_a]
   [message_true]
   [shizuku_window]
   彪先輩って、牛乳が苦手なんですか？[p]
@@ -220,9 +215,8 @@
 
 *kitaoroshi_hyo_milk_icecandy_for_hyo
   [item_use]
-  [chara_reset]
-  [chara_show name=kitaoroshi face=mousou cross=false time=10]
-  [shizuku_show face=perplexity_a]
+  [chara_show_mod name=kitaoroshi face=mousou]
+  [shizuku_show_mod face=perplexity_a]
   [message_true]
   [shizuku_window]
   彪先輩、もしかしてですけど[r]
@@ -273,9 +267,8 @@
 
 *kitaoroshi_hyo_else
   [item_use]
-  [chara_reset]
-  [chara_show name=kitaoroshi face=mousou cross=false time=10]
-  [shizuku_show face=normal_b]
+  [chara_show_mod name=kitaoroshi face=mousou]
+  [shizuku_show_mod face=normal_b]
   [message_true]
   [kitaoroshi_window]
   宅急便まだかな〜。[p]

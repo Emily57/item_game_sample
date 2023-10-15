@@ -5,5 +5,4 @@ data/image/.DS_Store
 data/bgimage/.DS_Store
 data/fgimage/chara/.DS_Store
 data/bgimage/debug/
-data/others/plugin/nc_chara/
-data/
+data/others/plugin/nc_chara/image/debug/

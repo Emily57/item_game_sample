@@ -28,15 +28,16 @@
     [chara_face name=midoshima face=oya storage="../others/plugin/nc_chara/image/midoshima/midoshima_oya.png"]
 
   ; kitaoroshi
-    [chara_face name=kitaoroshi face=wink storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_wink.png"]
-    [chara_face name=kitaoroshi face=nico storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_nico.png"]
-    [chara_face name=kitaoroshi face=niyari storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_niyari.png"]
     [chara_face name=kitaoroshi face=buu storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_buu.png"]
-    [chara_face name=kitaoroshi face=majimaji storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_majimaji.png"]
-    [chara_face name=kitaoroshi face=kushou storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_kushou.png"]
     [chara_face name=kitaoroshi face=guchi storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_guchi.png"]
     [chara_face name=kitaoroshi face=kangaegoto storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_kangaegoto.png"]
+    [chara_face name=kitaoroshi face=kushou storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_kushou.png"]
+    [chara_face name=kitaoroshi face=majimaji storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_majimaji.png"]
     [chara_face name=kitaoroshi face=mousou storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_mousou.png"]
+    [chara_face name=kitaoroshi face=nico storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_nico.png"]
+    [chara_face name=kitaoroshi face=niyari storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_niyari.png"]
+    [chara_face name=kitaoroshi face=uttae storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_uttae.png"]
+    [chara_face name=kitaoroshi face=wink storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_wink.png"]
 
   ; hiochi
     [chara_face name=hiochi face=hoe storage="../others/plugin/nc_chara/image/hiochi/hiochi_hoe.png"]

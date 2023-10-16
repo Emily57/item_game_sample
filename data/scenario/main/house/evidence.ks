@@ -1,9 +1,8 @@
 *kitaoroshi_hyo_engeibu_futo_default
   [item_use]
   [message_true]
-  [chara_mod name=kitaoroshi face=wink cross=false time=10]
-  [shizuku_show face=normal_b]
-  [chara_mod name=shizuku face=normal_b cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=wink]
+  [shizuku_show_mod face=normal_b]
   [kitaoroshi_window]
   ミドリ、大学のどこかにいると思うから。[r]
   よろしくね☆[p]
@@ -17,9 +16,8 @@
 *kitaoroshi_hyo_engeibu_futo_complete
   [item_use]
   [message_true]
-  [chara_reset]
-  [chara_show name=kitaoroshi face=majimaji time=10]
-  [shizuku_show face=normal_b]
+  [chara_show_mod name=kitaoroshi face=majimaji]
+  [shizuku_show_mod face=normal_b]
   [shizuku_window]
   彪先輩！[r]
   緑島先輩に封筒を届けてきましたよ！[p]
@@ -64,9 +62,8 @@
 
 *kitaoroshi_hyo_pierce_default
   [item_use]
-  [chara_mod name=kitaoroshi face=majimaji cross=false time=10]
-  [shizuku_show face=normal_a]
-  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=majimaji]
+  [shizuku_show_mod face=normal_a]
   [message_true]
   [shizuku_window]
   彪先輩！　机の下にピアスが落ちてたんですけど[r]
@@ -111,9 +108,8 @@
 
 *kitaoroshi_hyo_pierce_updated
   [item_use]
-  [chara_mod name=kitaoroshi face=kushou cross=false time=10]
-  [shizuku_show face=normal_b]
-  [chara_mod name=shizuku face=normal_b cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=kushou]
+  [shizuku_show_mod face=normal_b]
   [message_true]
   [kitaoroshi_window]
   しっかし、しずくちゃん。[r]
@@ -142,9 +138,8 @@
 
 *kitaoroshi_hyo_hyo_nigate_tabemono
   [item_use]
-  [chara_mod name=kitaoroshi face=majimaji cross=false time=10]
-  [shizuku_show face=normal_a]
-  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [chara_show_mod name=kitaoroshi face=majimaji cross=false time=10]
+  [shizuku_show_mod face=normal_a]
   [message_true]
   [shizuku_window]
   彪先輩って、牛乳が苦手なんですか？[p]
@@ -220,9 +215,8 @@
 
 *kitaoroshi_hyo_milk_icecandy_for_hyo
   [item_use]
-  [chara_reset]
-  [chara_show name=kitaoroshi face=mousou cross=false time=10]
-  [shizuku_show face=perplexity_a]
+  [chara_show_mod name=kitaoroshi face=mousou]
+  [shizuku_show_mod face=perplexity_a]
   [message_true]
   [shizuku_window]
   彪先輩、もしかしてですけど[r]
@@ -271,11 +265,193 @@
   [item_use_end]
   [return]
 
+*kitaoroshi_hyo_yorumi_suzuto
+  [item_use]
+  [chara_show_mod name=kitaoroshi face=niyari]
+  [shizuku_show_mod face=normal_b]
+  [message_true]
+  [kitaoroshi_window]
+  スズさん朝からいないけど、[r]
+  今日も研究室に行ってるっぽいんだよね。[p]
+
+  [chara_mod name=shizuku face=hou cross=false time=10]
+  [shizuku_window]
+  夜巳さん、仕事に大学に忙しそうですよね。[p]
+
+  [chara_mod name=kitaoroshi face=kushou cross=false time=10]
+  [kitaoroshi_window]
+  理工学部は三年から研修室が忙しいんでしょ。[r]
+  大変だね〜。[p]
+
+  [chara_mod name=kitaoroshi face=guchi cross=false time=10]
+  [kitaoroshi_window]
+  しかもスズさんのいる研究室なんか[r]
+  毎年、みんな死にそうな顔してるらしいし?[p]
+
+  [chara_mod name=kitaoroshi face=nico cross=false time=10]
+  [kitaoroshi_window]
+  ……いつも涼しい顔してるスズさんが[r]
+  どうなるか、楽しみだね☆[p]
+
+  [chara_mod name=shizuku face=aseriwarai cross=false time=10]
+  [shizuku_window]
+  全然楽しみじゃないですよ！[p]
+  [item_use_end]
+  [return]
+
+*kitaoroshi_hyo_midoshima_haruka
+  [item_use]
+  [chara_show_mod name=kitaoroshi face=majimaji]
+  [shizuku_show_mod face=normal_a]
+  [message_true]
+  [shizuku_window]
+  高校生の頃の緑島先輩って、[r]
+  どんな感じだったんですか？[p]
+
+  [chara_mod name=kitaoroshi face=mousou cross=false time=10]
+  [kitaoroshi_window]
+  ほとんど今と変わんないよ。[r]
+  穏やかで優しくて〜。[p]
+
+  静かで目立たないけど、しっかりしてるから[r]
+  ケッコー慕われてたな。[p]
+
+  [chara_mod name=kitaoroshi face=kushou cross=false time=10]
+  みんな、授業でわかんないことがあったら[r]
+  ミドリに聞きに行ってたし。[p]
+
+  [chara_mod name=kitaoroshi face=nico cross=false time=10]
+  [kitaoroshi_window]
+  ……あー、でも。そうだ。[r]
+  パソコンの時間とか面白くってさ。[p]
+
+  [chara_mod name=shizuku face=hou cross=false time=10]
+  [shizuku_window]
+  パソコンの時間？[p]
+
+  [chara_mod name=kitaoroshi face=mousou cross=false time=10]
+  [kitaoroshi_window]
+  情報学の実習の時間。[r]
+  ミドリってば、パソコン音痴でさ。[p]
+
+  [chara_mod name=kitaoroshi face=nico cross=false time=10]
+  次々とエラー踏むから、ミドリのこと[r]
+  生徒十人くらいで取り囲んで見てたっけ。[p]
+
+  [chara_mod name=shizuku face=perplexity_a cross=false time=10]
+  [shizuku_window]
+  そ、そんなに……。[p]
+
+  [chara_mod name=kitaoroshi face=mousou cross=false time=10]
+  [kitaoroshi_window]
+  今ではミドリも人並みにパソコンを[r]
+  扱えるようになったけど。[p]
+
+  あの頃を知っている身からすると[r]
+  寂しいやら嬉しいやらってね。[p]
+
+  [chara_mod name=shizuku face=smile_a cross=false time=10]
+  [shizuku_window]
+  なんだかんだ、良い思い出なんですね！[p]
+  [item_use_end]
+  [return]
+
+*kitaoroshi_hyo_kitaoroshi_hyo
+  [item_use]
+  [chara_show_mod name=kitaoroshi face=majimaji]
+  [shizuku_show_mod face=normal_a]
+  [message_true]
+  [shizuku_window]
+  『北颪』って苗字、珍しいですよね。[r]
+  『北嵐（キタアラシ）』と間違えちゃいそう。[p]
+
+  [chara_mod name=kitaoroshi face=kushou cross=false time=10]
+  [kitaoroshi_window]
+  そうだね〜。何回キタアラシって呼ばれたことやら。[p]
+
+  [chara_mod name=kitaoroshi face=mousou cross=false time=10]
+  でも、もう間違われるのにも慣れたし？[r]
+  最近は『キタアラシ』って呼ばれても返事してるよ。[p]
+
+  [chara_mod name=shizuku face=aseriwarai cross=false time=10]
+  [shizuku_window]
+  それは……。災難というか[r]
+  さすがの順応性というか……。[p]
+
+  [chara_mod name=kitaoroshi face=buu cross=false time=10]
+  [kitaoroshi_window]
+  いや〜、こんなに間違われりゃ誰でも[r]
+  オレみたいになると思うよ。[p]
+
+  [chara_mod name=kitaoroshi face=nico cross=false time=10]
+  試しにしずくちゃんも[r]
+  オレと同じ苗字になってみる？[p]
+
+  [chara_mod name=shizuku face=normal_b cross=false time=10]
+  [shizuku_window]
+  ………………、[p]
+
+  [chara_mod name=shizuku face=perplexity_a cross=false time=10]
+  …………え？[p]
+
+  [chara_mod name=kitaoroshi face=mousou cross=false time=10]
+  [kitaoroshi_window]
+  〜♪[p]
+  [item_use_end]
+  [return]
+
+*kitaoroshi_hyo_hiochi_akira
+  [item_use]
+  [chara_show_mod name=kitaoroshi face=uttae]
+  [shizuku_show_mod face=normal_b]
+  [message_true]
+  [kitaoroshi_window]
+  クッソ！！　アッキーの奴！！[p]
+
+  [chara_mod name=shizuku face=perplexity_a cross=false time=10]
+  [shizuku_window]
+  き、急にどうしたんですか、彪先輩……？[p]
+
+  [chara_mod name=kitaoroshi face=buu cross=false time=10]
+  [kitaoroshi_window]
+  いやさぁ、昨日の夜、アッキーと二人で[r]
+  古い格ゲーやって遊んだんだけどさ。[p]
+
+  [chara_mod name=kitaoroshi face=guchi cross=false time=10]
+  アッキー、なんか異様に格ゲー強いんだよね。[r]
+  オレ、あのゲームで初めて負けた。[p]
+
+  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [shizuku_window]
+  そんなことがあったんですね。[r]
+  晃くん、ゲームも得意なんだ。[p]
+
+  [chara_mod name=kitaoroshi face=buu cross=false time=10]
+  [kitaoroshi_window]
+  いや。あの強さは、隠れてこっそり[r]
+  あのゲームの練習してたに違いない。[p]
+
+  [chara_mod name=kitaoroshi face=nico cross=false time=10]
+  [kitaoroshi_window]
+  ってなわけで、格ゲーの新作を通販で買って[r]
+  今、宅急便の到着待ちってワケ。[p]
+
+  [chara_mod name=kitaoroshi face=uttae cross=false time=10]
+  [kitaoroshi_window]
+  アッキーのいない間に練習して[r]
+  次はオレがボコるもんね！[p]
+
+  [chara_mod name=shizuku face=aseriwarai cross=false time=10]
+  [shizuku_window]
+  （それで晃くんに勝ったとして[r]
+  嬉しいのかな。彪先輩……。）[p]
+  [item_use_end]
+  [return]
+
 *kitaoroshi_hyo_else
   [item_use]
-  [chara_reset]
-  [chara_show name=kitaoroshi face=mousou cross=false time=10]
-  [shizuku_show face=normal_b]
+  [chara_show_mod name=kitaoroshi face=mousou]
+  [shizuku_show_mod face=normal_b]
   [message_true]
   [kitaoroshi_window]
   宅急便まだかな〜。[p]

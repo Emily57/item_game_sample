@@ -406,11 +406,9 @@ window.__tyrano_key_config = {
   },
 
   // スマホ・タブレットのジェスチャー操作
+  // サンプルゲームでは最低限の機能に留めます
   gesture: {
-    swipe_up_1: "backlog",
-    swipe_down_1: "load",
     swipe_left_1: "auto",
-    swipe_right_1: "menu",
     hold: "holdskip",
 
     // 画面右端のダブルタップ・トリプルタップ
@@ -428,12 +426,8 @@ window.__tyrano_key_config = {
       A: "cancel -a",
       B: "ok     -a",
       X: "auto",
-      Y: "backlog",
-      LB: "save",
-      LT: "load",
       RB: "skip",
       RT: "holdskip",
-      START: "menu",
       SELECT: "",
       HOME: "title",
       LS: "",

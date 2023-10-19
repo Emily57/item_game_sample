@@ -1,12 +1,14 @@
 *index
 *initialize
-  [eval exp="f.midoshima_first = false"]
   [eval exp="f.conversation_partner = 'midoshima_haruka'"]
   [eval exp="f.location_name = '東堅大学裏庭'"]
 
+*contact
+  [jump target=*first_contact cond="!f.midoshima_first"]
+  [jump target=*second_contact cond="f.midoshima_first"]
+
 *first_contact
   [move_location]
-
   [bg storage=token_backyard.png time=1000 wait=true]
 
   [message_true]
@@ -34,6 +36,24 @@
 
   [midoshima_window]
   お届け物……？[p]
+  [eval exp="f.midoshima_first = true"]
+  [jump target=*action_select]
+
+*second_contact
+  [move_location]
+  [bg storage=token_backyard.png time=1000 wait=true]
+
+  [chara_show name=midoshima face=kaiwa cross=false time=1000]
+  [shizuku_show face=normal_b]
+  [message_true]
+  [midoshima_window]
+  こんにちは、志貴さん。[p]
+
+  [chara_mod name=shizuku face=smile_a cross=false time=10]
+  [shizuku_window]
+  こんにちは！[p]
+  #
+  [jump target=*action_select]
 
 *action_select
   [chara_show_mod name=midoshima face=normal cross=false time=10]

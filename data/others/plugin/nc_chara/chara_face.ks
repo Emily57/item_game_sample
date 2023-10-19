@@ -27,6 +27,7 @@
     [chara_face name=midoshima face=normal storage="../others/plugin/nc_chara/image/midoshima/midoshima_normal.png"]
     [chara_face name=midoshima face=oya storage="../others/plugin/nc_chara/image/midoshima/midoshima_oya.png"]
     [chara_face name=midoshima face=omou storage="../others/plugin/nc_chara/image/midoshima/midoshima_omou.png"]
+    [chara_face name=midoshima face=tameiki storage="../others/plugin/nc_chara/image/midoshima/midoshima_tameiki.png"]
 
   ; kitaoroshi
     [chara_face name=kitaoroshi face=buu storage="../others/plugin/nc_chara/image/kitaoroshi/kitaoroshi_buu.png"]

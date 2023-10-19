@@ -36,7 +36,7 @@
   お届け物……？[p]
 
 *action_select
-  [chara_mod name=midoshima face=normal cross=false time=10]
+  [chara_show_mod name=midoshima face=normal cross=false time=10]
   [message_false]
   [shizuku_hide]
   [button graphic="parts/action_chosa_a.png" enterimg="parts/action_chosa_b.png" target=*investigation width=350 height=auto x=265 y=500 clickse=""]
@@ -46,7 +46,7 @@
   [s]
 
 *investigation
-  ; @jump storage=main/chara/midoshima/investigation.ks target=*investigation
+  @jump storage=main/backyard/investigation.ks target=*investigation
   [s]
 
 *talk

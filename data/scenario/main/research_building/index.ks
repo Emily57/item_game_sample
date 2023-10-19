@@ -3,9 +3,12 @@
   [eval exp="f.conversation_partner = 'yorumi_suzuto'"]
   [eval exp="f.location_name = '東堅大学研究棟'"]
 
+*contact
+  [jump target=*first_contact cond="!f.yorumi_first"]
+  [jump target=*second_contact cond="f.yorumi_first"]
+
 *first_contact
   [move_location]
-
   [bg storage=token_research_building.png time=1000 wait=true]
 
   [message_true]
@@ -44,7 +47,22 @@
   ありがとうございます。[r]
   お隣、失礼します！[p]
 
+  [eval exp="f.yorumi_first = true"]
   [jump target=*action_select]
+
+*second_contact
+  [move_location]
+  [bg storage=token_research_building.png time=1000 wait=true]
+
+  [message_true]
+  [shizuku_show face=normal_b]
+  [chara_show name=yorumi face=kara cross=false time=1000]
+  [yorumi_window]
+  しずく。お疲れ様！[p]
+
+  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [shizuku_window]
+  お疲れ様です。夜巳さん！[p]
 
 *action_select
   [message_false]

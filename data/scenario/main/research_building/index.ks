@@ -58,7 +58,7 @@
   [s]
 
 *investigation
-  ; @jump storage=main/research_buildilng/investigation.ks target=*investigation
+  @jump storage=main/research_building/investigation.ks target=*investigation
   [s]
 
 *talk

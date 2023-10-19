@@ -1,7 +1,7 @@
 *midoshima_haruka_engeibu_futo_default
   [item_use]
-  [chara_mod name=midoshima face=normal cross=false time=10]
-  [shizuku_show face=normal_a]
+  [chara_show_mod name=midoshima face=normal cross=false time=10]
+  [shizuku_show_mod face=normal_a]
   [message_true]
   [shizuku_window]
   これ、緑島先輩に届けて欲しいって[r]
@@ -63,9 +63,8 @@
 
 *midoshima_haruka_engeibu_futo_complete
   [item_use]
-  [chara_reset]
-  [chara_show name=midoshima face=hohoemikaiwa cross=false time=10]
-  [shizuku_show face=normal_b]
+  [chara_show_mod name=midoshima face=hohoemikaiwa cross=false time=10]
+  [shizuku_show_mod face=normal_b]
   [message_true]
   [midoshima_window]
   ありがとうございます！[r]
@@ -307,10 +306,9 @@
 
 *midoshima_haruka_else
   [item_use]
-  [shizuku_show face=normal_a]
   [message_true]
-  [chara_mod name=midoshima face=tameiki cross=false time=10]
-  [chara_mod name=shizuku face=normal_b cross=false time=10]
+  [shizuku_show_mod face=tameiki]
+  [chara_show_mod name=shizuku face=normal_b]
   [midoshima_window]
   これは……？　すみません、[r]
   僕はお力になれなさそうです……。[p]

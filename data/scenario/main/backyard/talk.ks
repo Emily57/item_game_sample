@@ -113,7 +113,7 @@
 
 *tabemono
   [cm]
-  [shizuku_show face=normal_a]
+  [shizuku_show_mod face=normal_a]
   [message_true]
   [shizuku_window]
   緑島先輩って、食べ物の好き嫌いありますか？[p]

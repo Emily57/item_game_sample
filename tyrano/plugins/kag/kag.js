@@ -546,9 +546,7 @@ tyrano.plugin.kag = {
     this.variable.tf.system = {};
     this.variable.tf.system.backlog = [];
     var button_menu_obj = $(
-      "<div class='button_menu' style='z-index:100000000'><img src='./tyrano/images/system/" +
-        $.novel("file_button_menu") +
-        "'  /></div>"
+      "<div class='button_menu' style='z-index:100000000'><img src='./tyrano/images/system/></div>"
     );
     if (
       "-1" != this.kag.config.configLeft &&

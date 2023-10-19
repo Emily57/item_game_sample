@@ -7,6 +7,10 @@
 
 [item_communication conversation_partner="midoshima_haruka" target="engeibu_futo" version="default"]
 [item_communication conversation_partner="midoshima_haruka" target="engeibu_futo" version="complete"]
+[item_communication conversation_partner="midoshima_haruka" target="yorumi_suzuto"]
+[item_communication conversation_partner="midoshima_haruka" target="midoshima_haruka"]
+[item_communication conversation_partner="midoshima_haruka" target="kitaoroshi_hyo"]
+[item_communication conversation_partner="midoshima_haruka" target="hiochi_akira"]
 [item_communication_else conversation_partner="midoshima_haruka"]
 
 [item_communication conversation_partner="kitaoroshi_hyo" target="engeibu_futo" version="default"]

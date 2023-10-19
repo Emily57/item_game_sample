@@ -33,6 +33,18 @@
 *midoshima_haruka_engeibu_futo_complete
 [jump storage=main/backyard/evidence.ks target=*midoshima_haruka_engeibu_futo_complete]
 [return]
+*midoshima_haruka_yorumi_suzuto
+[jump storage=main/backyard/evidence.ks target=*midoshima_haruka_yorumi_suzuto]
+[return]
+*midoshima_haruka_midoshima_haruka
+[jump storage=main/backyard/evidence.ks target=*midoshima_haruka_midoshima_haruka]
+[return]
+*midoshima_haruka_kitaoroshi_hyo
+[jump storage=main/backyard/evidence.ks target=*midoshima_haruka_kitaoroshi_hyo]
+[return]
+*midoshima_haruka_hiochi_akira
+[jump storage=main/backyard/evidence.ks target=*midoshima_haruka_hiochi_akira]
+[return]
 *midoshima_haruka_else
 [jump storage=main/backyard/evidence.ks target=*midoshima_haruka_else]
 [return]

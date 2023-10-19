@@ -1027,7 +1027,7 @@ tyrano.plugin.kag.tag.chara_show = {
           var part_storage = "./data/fgimage/" + chara_obj.storage,
             j_img = $("<img />");
           "none" == chara_obj.storage
-            ? (part_storage = "./tyrano/images/system/transparent.png")
+            ? (part_storage = "")
             : array_storage.push(part_storage);
           j_img.attr("src", part_storage);
           j_img.css({
@@ -1613,10 +1613,7 @@ tyrano.plugin.kag.tag.chara_part = {
                 j_new_img.css("opacity", 0);
                 "none" != part.storage
                   ? j_new_img.attr("src", "./data/fgimage/" + part.storage)
-                  : j_new_img.attr(
-                      "src",
-                      "./tyrano/images/system/transparent.png"
-                    );
+                  : j_new_img.attr("src", "");
                 pm[key + "_zindex"]
                   ? j_new_img.css("z-index", pm[key + "_zindex"])
                   : j_new_img.css("z-index", chara_part[key].zindex);
@@ -1638,7 +1635,7 @@ tyrano.plugin.kag.tag.chara_part = {
                 j_img = target_obj.find(".part." + key);
               "none" != part.storage
                 ? j_img.attr("src", "./data/fgimage/" + part.storage)
-                : j_img.attr("src", "./tyrano/images/system/transparent.png");
+                : j_img.attr("src", "");
               pm[key + "_zindex"]
                 ? j_img.css("z-index", pm[key + "_zindex"])
                 : j_img.css("z-index", chara_part[key].zindex);

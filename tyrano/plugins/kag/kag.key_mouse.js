@@ -1388,7 +1388,7 @@ tyrano.plugin.kag.key_mouse = {
     last_hide_time: 0,
     default_image_map: {
       none: {
-        image_url: "./tyrano/images/system/transparent.png",
+        image_url: "",
         hotspot_x: 0,
         hotspot_y: 0,
       },
@@ -1410,9 +1410,7 @@ tyrano.plugin.kag.key_mouse = {
         that.util.refer(this);
         this.j_html = $("html");
         this.j_body = $("body");
-        this.j_cursor = $(
-          '<img id="vmouse" src="./tyrano/images/system/transparent.png" />'
-        );
+        this.j_cursor = $("");
         this.j_body.append(this.j_cursor);
         this.tick_rate = this.parent.VMOUSE_TICK_RATE;
         this.tick_rate > 0 && (this.delay_update = (1e3 / this.tick_rate) | 0);

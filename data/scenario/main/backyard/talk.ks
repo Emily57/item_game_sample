@@ -2,9 +2,9 @@
 *talk
 
   [cm]
-
-  [glink name="talk_btn_1" color="btn_06_black" target=*talk text="大学のことについて" width=450 size="22" x=840 y="200" opacity=0]
-  [glink name="talk_btn_2" color="btn_06_black" target=*talk text="園芸部について" width=450 size="22" x=840 y="280" opacity=0]
+  [chara_show_mod name=midoshima face=normal]
+  [glink name="talk_btn_1" color="btn_06_black" target=*university text="大学について" width=450 size="22" x=840 y="200" opacity=0]
+  [glink name="talk_btn_2" color="btn_06_black" target=*horticulture_club text="園芸部について" width=450 size="22" x=840 y="280" opacity=0]
   [glink name="talk_btn_3" color="btn_06_black" target=*tabemono text="好きな食べ物は？" width=450 size="22" x=840 y="360" opacity=0]
   [glink name="talk_btn_4" color="btn_06_black" storage="main/backyard/index.ks" target=*action_select text="戻る" width=230 size="16" x=1060 y="460" opacity=0]
 
@@ -17,9 +17,102 @@
   [anim name="talk_btn_4" time="100" opacity="255"]
   [s]
 
+*university
+  [cm]
+  [shizuku_show_mod face=hou]
+  [message_true]
+  [shizuku_window]
+  緑島先輩って、どうして[r]
+  東堅大学に進学しようと思ったんですか？[p]
+
+  [chara_mod name=midoshima face=komariegao cross=false time=10]
+  [midoshima_window]
+  あまり深い理由はないですよ。[r]
+  両親が東堅大学出身だからというのと……。[p]
+
+  [chara_mod name=midoshima face=kaiwa cross=false time=10]
+  あとは、彪が早いうちから[r]
+  東堅大学を目指していたので。[r]
+  その影響も少しありますね。[p]
+
+  [chara_mod name=midoshima face=oya cross=false time=10]
+  志貴さんは、どうして東堅大学に？[p]
+
+  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [shizuku_window]
+  私は……、えへへ[r]
+  友達の蜜柑に熱烈に誘われたからですね。[p]
+
+  [chara_mod name=shizuku face=aseriwarai cross=false time=10]
+  蜜柑に誘われなかったら、私は一体[r]
+  どの大学を選んでいたことやら……。[p]
+
+  [chara_mod name=midoshima face=kaiwa cross=false time=10]
+  [midoshima_window]
+  きっかけって、色々ありますよね。[r]
+  それもまた運命的で、面白いものだと思います。[p]
+
+  志貴さんは、大学生活、楽しんでますか？[p]
+
+  [chara_mod name=shizuku face=smile_a cross=false time=10]
+  [shizuku_window]
+  すっごく楽しいです！[p]
+
+  授業も面白いし、友達もできて[r]
+  東堅大学に来てよかったって思います！[p]
+
+  [chara_mod name=midoshima face=hohoemikaiwa cross=false time=10]
+  [midoshima_window]
+  それはよかった。[r]
+  これからも、楽しんでくださいね。[p]
+
+  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [shizuku_window]
+  はい！　めいっぱい楽しみます！[p]
+  [cm]
+  [message_false]
+  [jump target="*talk"]
+
+*horticulture_club
+  [cm]
+  [shizuku_show_mod face=normal_a]
+  [message_true]
+  [shizuku_window]
+  緑島先輩、今日は[r]
+  園芸部の用事で大学に？[p]
+
+  [chara_mod name=midoshima face=kaiwa cross=false time=10]
+  [midoshima_window]
+  そうですね。[r]
+  午前中に講義の課題を進めて、[r]
+  午後からは園芸部のことを。[p]
+
+  少し事務的な用事と……。[r]
+  小カブの収穫時期なので、様子が見たくて。[p]
+
+  [chara_mod name=shizuku face=kirakira cross=false time=10]
+  [shizuku_window]
+  小カブですか！[r]
+  私も見てみたいです！[p]
+
+  [chara_mod name=midoshima face=hohoemikaiwa cross=false time=10]
+  [midoshima_window]
+  あとで一緒に様子を見に行きましょう。[r]
+  白くて丸くて、かわいいですよ。[p]
+
+  [chara_mod name=midoshima face=kaiwa cross=false time=10]
+  収穫したら炒め物にして[r]
+  みんなで食べましょうね。[p]
+
+  [chara_mod name=shizuku face=smile_a cross=false time=10]
+  [shizuku_window]
+  やったー！　楽しみです！[p]
+  [cm]
+  [message_false]
+  [jump target="*talk"]
+
 *tabemono
   [cm]
-
   [shizuku_show face=normal_a]
   [message_true]
   [shizuku_window]

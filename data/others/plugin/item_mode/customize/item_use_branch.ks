@@ -23,6 +23,18 @@
 *yorumi_suzuto_pierce_updated
 [jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_pierce_updated]
 [return]
+*yorumi_suzuto_yorumi_suzuto
+[jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_yorumi_suzuto]
+[return]
+*yorumi_suzuto_midoshima_haruka
+[jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_midoshima_haruka]
+[return]
+*yorumi_suzuto_kitaoroshi_hyo
+[jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_kitaoroshi_hyo]
+[return]
+*yorumi_suzuto_hiochi_akira
+[jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_hiochi_akira]
+[return]
 *yorumi_suzuto_else
 [jump storage=main/research_building/evidence.ks target=*yorumi_suzuto_else]
 [return]

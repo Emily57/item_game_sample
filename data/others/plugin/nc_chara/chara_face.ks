@@ -19,6 +19,7 @@
     [chara_face name=yorumi face=suiri storage="../others/plugin/nc_chara/image/yorumi/yorumi_suiri.png"]
     [chara_face name=yorumi face=gomakashi storage="../others/plugin/nc_chara/image/yorumi/yorumi_gomakashi.png"]
     [chara_face name=yorumi face=metojikaiwa storage="../others/plugin/nc_chara/image/yorumi/yorumi_metojikaiwa.png"]
+    [chara_face name=yorumi face=oya storage="../others/plugin/nc_chara/image/yorumi/yorumi_oya.png"]
 
   ; midoshima
     [chara_face name=midoshima face=apology storage="../others/plugin/nc_chara/image/midoshima/midoshima_apology.png"]

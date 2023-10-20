@@ -3,6 +3,10 @@
 ; 
 
 [item_communication conversation_partner="yorumi_suzuto" target="pierce" version="updated"]
+[item_communication conversation_partner="yorumi_suzuto" target="yorumi_suzuto"]
+[item_communication conversation_partner="yorumi_suzuto" target="midoshima_haruka"]
+[item_communication conversation_partner="yorumi_suzuto" target="kitaoroshi_hyo"]
+[item_communication conversation_partner="yorumi_suzuto" target="hiochi_akira"]
 [item_communication_else conversation_partner="yorumi_suzuto"]
 
 [item_communication conversation_partner="midoshima_haruka" target="engeibu_futo" version="default"]

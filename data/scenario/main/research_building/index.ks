@@ -3,9 +3,12 @@
   [eval exp="f.conversation_partner = 'yorumi_suzuto'"]
   [eval exp="f.location_name = '東堅大学研究棟'"]
 
+*contact
+  [jump target=*first_contact cond="!f.yorumi_first"]
+  [jump target=*second_contact cond="f.yorumi_first"]
+
 *first_contact
   [move_location]
-
   [bg storage=token_research_building.png time=1000 wait=true]
 
   [message_true]
@@ -44,13 +47,27 @@
   ありがとうございます。[r]
   お隣、失礼します！[p]
 
+  [eval exp="f.yorumi_first = true"]
   [jump target=*action_select]
+
+*second_contact
+  [move_location]
+  [bg storage=token_research_building.png time=1000 wait=true]
+
+  [message_true]
+  [shizuku_show face=normal_b]
+  [chara_show name=yorumi face=kara cross=false time=1000]
+  [yorumi_window]
+  しずく。お疲れ様！[p]
+
+  [chara_mod name=shizuku face=normal_a cross=false time=10]
+  [shizuku_window]
+  お疲れ様です。夜巳さん！[p]
 
 *action_select
   [message_false]
   [shizuku_hide]
-  [chara_mod name=yorumi face=normal cross=false time=10]
-  [chara_show name=yorumi face=normal cross=false time=10]
+  [chara_show_mod name=yorumi face=normal]
   [button graphic="parts/action_chosa_a.png" enterimg="parts/action_chosa_b.png" target=*investigation width=350 height=auto x=265 y=500 clickse=""]
   [button graphic="parts/action_talk_a.png" enterimg="parts/action_talk_b.png" target=*talk width=350 height=auto x=665 y=500 clickse=""]
   [button graphic="parts/action_evidence_a.png" enterimg="parts/action_evidence_b.png" storage=../others/plugin/item_mode/system/item_menu.ks target=*item_menu width=350 height=auto x=265 y=600 clickse=""]
@@ -58,7 +75,7 @@
   [s]
 
 *investigation
-  ; @jump storage=main/research_buildilng/investigation.ks target=*investigation
+  @jump storage=main/research_building/investigation.ks target=*investigation
   [s]
 
 *talk

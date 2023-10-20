@@ -16,6 +16,10 @@
     [chara_face name=yorumi face=smile storage="../others/plugin/nc_chara/image/yorumi/yorumi_smile.png"]
     [chara_face name=yorumi face=smile_f storage="../others/plugin/nc_chara/image/yorumi/yorumi_smile_f.png"]
     [chara_face name=yorumi face=side_kara storage="../others/plugin/nc_chara/image/yorumi/yorumi_side_kara.png"]
+    [chara_face name=yorumi face=suiri storage="../others/plugin/nc_chara/image/yorumi/yorumi_suiri.png"]
+    [chara_face name=yorumi face=gomakashi storage="../others/plugin/nc_chara/image/yorumi/yorumi_gomakashi.png"]
+    [chara_face name=yorumi face=metojikaiwa storage="../others/plugin/nc_chara/image/yorumi/yorumi_metojikaiwa.png"]
+    [chara_face name=yorumi face=oya storage="../others/plugin/nc_chara/image/yorumi/yorumi_oya.png"]
 
   ; midoshima
     [chara_face name=midoshima face=apology storage="../others/plugin/nc_chara/image/midoshima/midoshima_apology.png"]
@@ -62,5 +66,5 @@
     [chara_face name=shizuku face=normal_b storage="../others/plugin/nc_chara/image/shizuku/shizuku_normal_b.png"]
     [chara_face name=shizuku face=perplexity_a storage="../others/plugin/nc_chara/image/shizuku/shizuku_perplexity_a.png"]
     [chara_face name=shizuku face=perplexity_b storage="../others/plugin/nc_chara/image/shizuku/shizuku_perplexity_b.png"]
-
+    [chara_face name=shizuku face=astonishment storage="../others/plugin/nc_chara/image/shizuku/shizuku_astonishment.png"]
 [return]

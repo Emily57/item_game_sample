@@ -289,9 +289,9 @@
 
 *yorumi_suzuto_else
   [item_use]
-  [message_true]
   [chara_show_mod name=yorumi face=kara]
   [shizuku_show_mod face=normal_b]
+  [message_true]
   [yorumi_window]
   俺は……、これのことはあまり詳しくないな。[r]
   ごめんね。[p]

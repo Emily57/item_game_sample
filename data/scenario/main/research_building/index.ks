@@ -67,8 +67,7 @@
 *action_select
   [message_false]
   [shizuku_hide]
-  [chara_mod name=yorumi face=normal cross=false time=10]
-  [chara_show name=yorumi face=normal cross=false time=10]
+  [chara_show_mod name=yorumi face=normal]
   [button graphic="parts/action_chosa_a.png" enterimg="parts/action_chosa_b.png" target=*investigation width=350 height=auto x=265 y=500 clickse=""]
   [button graphic="parts/action_talk_a.png" enterimg="parts/action_talk_b.png" target=*talk width=350 height=auto x=665 y=500 clickse=""]
   [button graphic="parts/action_evidence_a.png" enterimg="parts/action_evidence_b.png" storage=../others/plugin/item_mode/system/item_menu.ks target=*item_menu width=350 height=auto x=265 y=600 clickse=""]
